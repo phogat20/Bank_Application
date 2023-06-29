@@ -11,6 +11,8 @@ Tools & Technologies used:  Spring Boot, Spring JPA, Spring Security, MySQL, Mav
 This is a backend application for a bank, developed using Spring Boot. It provides various features such as transactions, withdrawals, deposits, and loans. 
 The application also incorporates full security using Spring Security.
 
+## Tech Used
+
 ## Features
 
 - **Transactions**: Users can initiate transactions, view transaction details, and update existing transactions.
