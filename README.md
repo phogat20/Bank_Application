@@ -1,28 +1,31 @@
 # Bank Backend Application
 
 –	The bank application provides users with features such as account creation, transaction history, loans, and balance.
-–	Build application on monolithic architecture.
-–	To ensure security, the bank application uses hashing for sensitive data like passwords and session management. Roles-based authorization is also added.
+–	Build this application on monolithic architecture.
+–	The bank application uses hashing for sensitive data like passwords and session management to ensure security. Roles-based authorization is also added.
 –	Implemented CSRF Cookie Filter and BCrypt Password encoder is used for password hashing and storage.
 
-Tools & Technologies used:  Spring Boot, Spring JPA, Spring Security, MySQL, Maven, Postman.
-
+## Tools & Technologies used:  
+- Spring Boot
+- Spring JPA
+- Spring Security
+- MySQL
+- Maven
+- Postman
 
 This is a backend application for a bank, developed using Spring Boot. It provides various features such as transactions, withdrawals, deposits, and loans. 
-The application also incorporates full security using Spring Security.
-
-## Tech Used
+The application also incorporates complete security using Spring Security.
 
 ## Features
 
 - **Transactions**: Users can initiate transactions, view transaction details, and update existing transactions.
-- **Withdrawals**: Users can make withdrawals from their accounts and view their withdrawal history.
+- **Withdrawals**: Users can withdraw from their accounts and view their withdrawal history.
 - **Deposits**: Users can make deposits to their accounts and view their deposit history.
 - **Loans**: Users can apply for loans, view loan details, and make loan repayments.
 
 ## Security
 
-The application ensures full security using Spring Security. The following security measures have been implemented:
+The application ensures complete security using Spring Security. The following security measures have been implemented:
 
 - **Authentication**: Users are required to authenticate themselves before accessing any functionality.
 - **Authorization**: Different user roles (such as admin, employee, and customer) have different levels of access to the application's features.
@@ -45,7 +48,7 @@ Before running the application, make sure you have the following prerequisites:
 │   ├── main
 │   │   ├── java
 │   │   │   └── com
-│   │   │       └── yourcompany
+│   │   │       └── your company
 │   │   │           ├── config
 │   │   │           │   ├── SecurityConfig.java
 │   │   │           │   └── WebConfig.java
@@ -77,7 +80,7 @@ Before running the application, make sure you have the following prerequisites:
 │   └── test
 │       └── java
 │           └── com
-│               └── yourcompany
+│               └── your company
 │                   └── controller
 │                       ├── TransactionControllerTest.java
 │                       ├── WithdrawalControllerTest.java
